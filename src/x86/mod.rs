@@ -23,6 +23,7 @@ pub(crate) mod instapi;
 pub(crate) mod instdb;
 pub(crate) mod opcode;
 pub mod operands;
+pub mod unwind;
 
 pub use crate::X86Error;
 pub use crate::core::operand::imm;
